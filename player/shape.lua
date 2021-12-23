@@ -10,10 +10,10 @@ function player_movement(new_pos)
     y = new_pos[2]
 
     --muovo in su
-    if (btnp(2)) then y = y + 1 end    
+    if (btnp(2)) then y = y - 1 end    
 
     --muovo in giu
-    if (btnp(3)) then y = y - 1 end
+    if (btnp(3)) then y = y + 1 end
 
     --muovo a sinistra
     if (btnp(0)) then x = x - 1 end 
